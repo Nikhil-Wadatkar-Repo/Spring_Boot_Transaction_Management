@@ -22,5 +22,6 @@ public class MyRepository {
         int num = 100 / 0;
         jdbcTemplate.execute("Insert into SYSTEM.EMP_DEPT (DEPT_ID,EMP_ID,DEPARTMENT,CITY,PINCODE) values (23,205,'DEVELOPER','AMRAWATI',444901)");
         System.out.println("row 3 inserted");
+        System.out.println("master branch");
     }
 }
